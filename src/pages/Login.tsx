@@ -40,6 +40,7 @@ function Login() {
         onChange={(e) => setPassword(e.target.value)}
       />
       <button type="submit">Login</button>
+      <p><a href="/register">Don't have an account? Register here.</a></p>
     </form>
   );
 }

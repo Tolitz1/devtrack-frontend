@@ -2,8 +2,6 @@ import { useEffect, useState } from "react";
 import api from "../api/axios";
 import { useNavigate } from "react-router-dom";
 
-
-
 interface Project {
   id: number;
   title: string;
