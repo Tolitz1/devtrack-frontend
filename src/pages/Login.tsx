@@ -105,7 +105,7 @@ function Login() {
         </form>
 
         {/* Link to register page for new users */}
-        <p className="text-sm text-center text-gray-600 mt-6">
+        {/* <p className="text-sm text-center text-gray-600 mt-6">
           Don't have an account?{" "}
           <span
             onClick={() => navigate("/register")}
@@ -113,7 +113,7 @@ function Login() {
           >
             Register here
           </span>
-        </p>
+        </p> */}
 
       </div>
     </div>

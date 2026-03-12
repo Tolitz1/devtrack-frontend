@@ -174,18 +174,6 @@ export default function Register() {
           </button>
 
         </form>
-
-        {/* Link to login page for users who already have an account */}
-        <p className="text-sm text-center text-gray-600 mt-6">
-          Already have an account?{" "}
-          <span
-            onClick={() => navigate("/login")}
-            className="text-blue-600 hover:underline cursor-pointer font-medium"
-          >
-            Login
-          </span>
-        </p>
-
       </div>
     </div>
   );
