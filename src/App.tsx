@@ -6,17 +6,16 @@ import Office from "./pages/Office";
 import ProjectDetail from "./pages/ProjectDetail";
 import ProtectedRoute from "./components/ProtectedRoute";
 
-
 function App() {
   return (
-    <Routes>
-      <Route path="/" element={<Login />} />
-      <Route path="/login" element={<Login />} />
-      <Route path="/register" element={<ProtectedRoute><Register /></ProtectedRoute>} />
-      <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
-      <Route path="/office" element={<ProtectedRoute><Office /></ProtectedRoute>} />
-      <Route path="/projects/:id" element={<ProjectDetail />} />
-    </Routes>
+      <Routes>
+        <Route path="/" element={<Login />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/register" element={<ProtectedRoute><Register /></ProtectedRoute>} />
+        <Route path="/dashboard" element={<ProtectedRoute><Dashboard /></ProtectedRoute>} />
+        <Route path="/office" element={<ProtectedRoute><Office /></ProtectedRoute>} />
+        <Route path="/projects/:id" element={<ProjectDetail />} />
+      </Routes>
   );
 }
 
